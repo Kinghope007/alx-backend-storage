@@ -1,0 +1,3 @@
+// script that list doc with name="holberto school"
+db.school.find({name: "Holberton school"}).forEach(printjson);
+
