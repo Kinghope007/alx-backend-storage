@@ -1,0 +1,3 @@
+// Script that delete all doc in holbertion coll school
+db.school.deleteMany({name: "Holberton school"});
+
